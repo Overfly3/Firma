@@ -26,14 +26,13 @@ namespace Firma.Models
         }
     
         public virtual DbSet<abteilung> abteilung { get; set; }
-        public virtual DbSet<Applications> Applications { get; set; }
         public virtual DbSet<auftraggeber> auftraggeber { get; set; }
-        public virtual DbSet<Memberships> Memberships { get; set; }
         public virtual DbSet<mitarbeiter> mitarbeiter { get; set; }
-        public virtual DbSet<Profiles> Profiles { get; set; }
         public virtual DbSet<projekt> projekt { get; set; }
+        public virtual DbSet<Applications> Applications { get; set; }
+        public virtual DbSet<Memberships> Memberships { get; set; }
+        public virtual DbSet<Profiles> Profiles { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<Users> Users { get; set; }
     }
 }

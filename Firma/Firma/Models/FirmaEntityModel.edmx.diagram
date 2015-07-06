@@ -5,25 +5,24 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="5cad3247222b48d3a90d43fa7e0f728d" Name="Diagram1">
-        <EntityTypeShape EntityType="firmaModel.abteilung" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="firmaModel.Applications" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="firmaModel.auftraggeber" Width="1.5" PointX="8" PointY="10.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="firmaModel.Memberships" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
-        <EntityTypeShape EntityType="firmaModel.mitarbeiter" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="firmaModel.Profiles" Width="1.5" PointX="7.5" PointY="7.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="firmaModel.projekt" Width="1.5" PointX="10.25" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="firmaModel.Roles" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="firmaModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="firmaModel.Users" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
-        <AssociationConnector Association="firmaModel.mitarbeiter_fk_abteilung" ManuallyRouted="false" />
-        <AssociationConnector Association="firmaModel.MembershipApplication" ManuallyRouted="false" />
-        <AssociationConnector Association="firmaModel.RoleApplication" ManuallyRouted="false" />
-        <AssociationConnector Association="firmaModel.UserApplication" ManuallyRouted="false" />
-        <AssociationConnector Association="firmaModel.projekt_fk_auftraggeber" ManuallyRouted="false" />
-        <AssociationConnector Association="firmaModel.MembershipUser" ManuallyRouted="false" />
-        <AssociationConnector Association="firmaModel.projekt_fk_projektleiter" ManuallyRouted="false" />
-        <AssociationConnector Association="firmaModel.UserProfile" ManuallyRouted="false" />
-        <AssociationConnector Association="firmaModel.UsersInRoles" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="firmaModel.abteilung" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="firmaModel.auftraggeber" Width="1.5" PointX="3" PointY="4.875" />
+        <EntityTypeShape EntityType="firmaModel.mitarbeiter" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="firmaModel.projekt" Width="1.5" PointX="5.25" PointY="1" />
+        <AssociationConnector Association="firmaModel.mitarbeiter_fk_abteilung" />
+        <AssociationConnector Association="firmaModel.projekt_fk_auftraggeber" />
+        <AssociationConnector Association="firmaModel.projekt_fk_projektleiter" />
+        <EntityTypeShape EntityType="firmaModel.Applications" Width="1.5" PointX="5.375" PointY="8.5" />
+        <EntityTypeShape EntityType="firmaModel.Memberships" Width="1.5" PointX="7.625" PointY="7" />
+        <EntityTypeShape EntityType="firmaModel.Profiles" Width="1.5" PointX="12.125" PointY="11.375" />
+        <EntityTypeShape EntityType="firmaModel.Roles" Width="1.5" PointX="7.625" PointY="14.25" />
+        <EntityTypeShape EntityType="firmaModel.Users" Width="1.5" PointX="9.875" PointY="11" />
+        <AssociationConnector Association="firmaModel.MembershipApplication" />
+        <AssociationConnector Association="firmaModel.RoleApplication" />
+        <AssociationConnector Association="firmaModel.UserApplication" />
+        <AssociationConnector Association="firmaModel.MembershipUser" />
+        <AssociationConnector Association="firmaModel.UserProfile" />
+        <AssociationConnector Association="firmaModel.UsersInRoles" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

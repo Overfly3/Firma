@@ -4,13 +4,16 @@
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <% if(User.Identity.IsAuthenticated) { %>
     <h1>Abteilungen</h1>
-    <telerik:RadGrid ID="uiRadGridForSocialUsages" OnItemDataBound="RadGrid1_ItemDataBound" runat="server" DataSourceID="uiDataSourceForDepartments" AllowSorting="True" Skin="MetroTouch" EnableUpdate="True" AllowAutomaticDeletes="True" AllowAutomaticInserts="True" AllowAutomaticUpdates="True" CellSpacing="-1" GridLines="Both" GroupPanelPosition="Top" AllowFilteringByColumn="True">
+    <telerik:RadGrid ID="uiRadGridForSocialUsages" OnItemDataBound="RadGrid1_ItemDataBound" runat="server" AutoGenerateColumns="false" DataSourceID="uiDataSourceForDepartments" AllowSorting="True" Skin="MetroTouch" EnableUpdate="True" AllowAutomaticDeletes="True" AllowAutomaticInserts="True" AllowAutomaticUpdates="True" CellSpacing="-1" GridLines="Both" GroupPanelPosition="Top" AllowFilteringByColumn="True">
         <ExportSettings>
             <Pdf PageWidth=""></Pdf>
         </ExportSettings>
 
-        <MasterTableView CommandItemDisplay="Top" DataSourceID="uiDataSourceForDepartments" AutoGenerateColumns="False" DataKeyNames="abteilung_id">
+        <MasterTableView CommandItemDisplay="Top" DataSourceID="uiDataSourceForDepartments" AutoGenerateColumns="false" DataKeyNames="abteilung_id">
             <Columns>
+                <telerik:GridEditCommandColumn ButtonType="ImageButton" UniqueName="EditCommandColumn">
+                </telerik:GridEditCommandColumn>
+                <telerik:GridButtonColumn Text="Delete" UniqueName="DeleteButtonColumn" CommandName="Delete" ButtonType="ImageButton" />
                 <telerik:GridBoundColumn Visible="false" DataField="abteilung_id" ReadOnly="True" HeaderText="abteilung_id" SortExpression="abteilung_id" UniqueName="abteilung_id" DataType="System.Int32" FilterControlAltText="Filter abteilung_id column"></telerik:GridBoundColumn>
                 <telerik:GridBoundColumn DataField="bezeichnung" HeaderText="bezeichnung" SortExpression="bezeichnung" UniqueName="bezeichnung" FilterControlAltText="Filter bezeichnung column"></telerik:GridBoundColumn>
                 <telerik:GridBoundColumn DataField="aufgaben" HeaderText="aufgaben" SortExpression="aufgaben" UniqueName="aufgaben" FilterControlAltText="Filter aufgaben column"></telerik:GridBoundColumn>

@@ -38,3 +38,41 @@ C:\Users\Alex\Documents\Visual Studio 2013\Projects\Firma\Firma\bin\EntityFramew
 C:\Users\Alex\Documents\Visual Studio 2013\Projects\Firma\Firma\bin\EntityFramework.SqlServer.xml
 C:\Users\Alex\documents\visual studio 2013\Projects\Firma\Firma\bin\Telerik.Web.UI.Skins.dll
 C:\Users\Alex\documents\visual studio 2013\Projects\Firma\Firma\obj\Debug\Firma.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Firma.dll.config
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Firma.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Firma.pdb
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Antlr3.Runtime.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\EntityFramework.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\EntityFramework.SqlServer.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\System.Web.Optimization.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\System.Web.Providers.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\WebGrease.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\EntityFramework.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\EntityFramework.SqlServer.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Telerik.Web.UI.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\obj\Debug\Firma.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\obj\Debug\Firma.dll.licenses
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\obj\Debug\Firma.dll
+C:\Users\Alex\Documents\GitHub\Firma\Firma\Firma\obj\Debug\Firma.pdb

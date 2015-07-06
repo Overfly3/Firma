@@ -28,17 +28,17 @@ namespace Firma
 
         private void setUi()
         {
-            DataTable dt = new DataTable();
-            dt.Columns.Add(new DataColumn("projekt_id", typeof(int)));
-            dt.Columns.Add(new DataColumn("Bezeichnung", typeof(string)));
-            dt.Columns.Add(new DataColumn("Beschreibung", typeof(string)));
-            dt.Columns.Add(new DataColumn("fk_auftraggeber_id", typeof(string)));
-            dt.Columns.Add(new DataColumn("Selected", typeof(string)));
-            dt.Columns.Add(new DataColumn("Selected", typeof(string)));
-            dt.Columns.Add(new DataColumn("Selected", typeof(string)));
-            dt.Columns.Add(new DataColumn("Selected", typeof(string)));
-            dt.Columns.Add(new DataColumn("Selected", typeof(string)));
-            dt.Columns.Add(new DataColumn("Selected", typeof(string))); 
+            //DataTable dt = new DataTable();
+            //dt.Columns.Add(new DataColumn("projekt_id", typeof(int)));
+            //dt.Columns.Add(new DataColumn("Bezeichnung", typeof(string)));
+            //dt.Columns.Add(new DataColumn("Beschreibung", typeof(string)));
+            //dt.Columns.Add(new DataColumn("fk_auftraggeber_id", typeof(string)));
+            //dt.Columns.Add(new DataColumn("Selected", typeof(string)));
+            //dt.Columns.Add(new DataColumn("Selected", typeof(string)));
+            //dt.Columns.Add(new DataColumn("Selected", typeof(string)));
+            //dt.Columns.Add(new DataColumn("Selected", typeof(string)));
+            //dt.Columns.Add(new DataColumn("Selected", typeof(string)));
+            //dt.Columns.Add(new DataColumn("Selected", typeof(string))); 
             //foreach (var projekt in new EntityManager().GetProjects())
             //{
             //    projekt.projekt_id;
@@ -53,7 +53,7 @@ namespace Firma
             //    projekt.mitarbeiter.name;
             //    dt.Rows.Add();
             //}
-            uiRadGridForSocialUsages.DataSource = dt;
+            //uiRadGridForSocialUsages.DataSource = dt;
         }
 
         protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)

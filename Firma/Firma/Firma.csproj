@@ -137,6 +137,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Adminseite.aspx" />
+    <Content Include="Onlinehelp.aspx" />
     <Content Include="Task.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Manage.aspx" />
@@ -274,6 +276,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adminseite.aspx.cs">
+      <DependentUpon>Adminseite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adminseite.aspx.designer.cs">
+      <DependentUpon>Adminseite.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="Managers\EntityManager.cs" />
@@ -317,11 +326,15 @@
     <Compile Include="Models\Roles.cs">
       <DependentUpon>FirmaEntityModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\sysdiagrams.cs">
-      <DependentUpon>FirmaEntityModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\Users.cs">
       <DependentUpon>FirmaEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Onlinehelp.aspx.cs">
+      <DependentUpon>Onlinehelp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Onlinehelp.aspx.designer.cs">
+      <DependentUpon>Onlinehelp.aspx</DependentUpon>
     </Compile>
     <Compile Include="Task.aspx.cs">
       <DependentUpon>Task.aspx</DependentUpon>

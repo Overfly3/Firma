@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Firma.Managers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,6 +17,8 @@ namespace Firma
 
         protected void Page_Init(object sender, EventArgs e)
         {
+            //make adminPage visible or not
+            uiLinkForAdminPage.Visible = new PrincipalManager().IsAdminByUserName(Context.User.Identity.Name);
             // The code below helps to protect against XSRF attacks
             var requestCookie = Request.Cookies[AntiXsrfTokenKey];
             Guid requestCookieGuidValue;

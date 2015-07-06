@@ -24,12 +24,6 @@ namespace Firma.Account
         {
             if (!IsPostBack)
             {
-                // Determine the sections to render
-                var hasLocalPassword = OpenAuth.HasLocalPassword(User.Identity.Name);
-                setPassword.Visible = !hasLocalPassword;
-                changePassword.Visible = hasLocalPassword;
-
-                CanRemoveExternalLogins = hasLocalPassword;
 
                 // Render success message
                 var message = Request.QueryString["m"];
@@ -65,14 +59,6 @@ namespace Firma.Account
 
                 }
             }
-        }
-
-
-        public IEnumerable<OpenAuthAccountData> GetExternalLogins()
-        {
-            var accounts = OpenAuth.GetAccountsForUser(User.Identity.Name);
-            CanRemoveExternalLogins = CanRemoveExternalLogins || accounts.Count() > 1;
-            return accounts;
         }
 
         public void RemoveExternalLogin(string providerName, string providerUserId)

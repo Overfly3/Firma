@@ -66,6 +66,9 @@
                         <li><a runat="server" href="~/">Projektdaten auflisten</a></li>
                         <li><a runat="server" href="~/Task">Auftraggeber auflisten</a></li>
                         <li><a runat="server" href="~/Department">Abteilungsdaten auflisten</a></li>
+                        <li><a runat="server" href="~/Onlinehelp">Onlinehelp</a></li>
+                        <li><a runat="server" id="uiLinkForAdminPage" href="~/Adminseite">Adminseite</a></li>
+
                     </ul>
                 </nav>
             </div>
